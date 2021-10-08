@@ -3,3 +3,37 @@
 * {
     font-family: sans-serif;
 }
+
+.box {
+    background-color: goldenrod;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    height: 50px;
+    padding: 10px;
+}
+
+.box-alt {
+    background-color: purple;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 30px;
+    vertical-align: middle;
+
+}
+
+.mb-4 {
+    margin-bottom: 4px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+[class*="col-"] {
+    justify-content: center;
+    align-items: center;
+}
