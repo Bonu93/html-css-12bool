@@ -1,3 +1,55 @@
 body {
     font-family: 'Anton', sans-serif;
+    background-image: url(../img/South_park.webp);
+    background-size: cover;
+}
+
+/* pixel art spacing reset / overwrite */
+
+[class*="col-"] {
+    padding: 0;
+}
+
+/* UTILITIES */
+
+.mb100 {
+    margin-bottom: 100px;
+}
+
+header {
+    text-align: center;
+}
+
+.box {
+    height: 50px;
+}
+
+/* BACKGROUNDS */
+
+.bg-yellow {
+    background-color: #ffff00;
+}
+
+.bg-skyblue {
+    background-color: #6495ed;
+}
+
+.bg-skin {
+    background-color: #ffc286;
+}
+
+.bg-red {
+    background-color: #ff0000;
+}
+
+.bg-black  {
+    background-color: #000;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-brown {
+    background-color: #8b4513;
 }
